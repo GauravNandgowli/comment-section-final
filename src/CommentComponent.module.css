@@ -1,0 +1,42 @@
+.commentBox {
+  /* background-color: greenyellow; */
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.commentComponent {
+  /* background-color: blue; */
+  width: 100%;
+  display: flex;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 2em;
+  flex: 1;
+}
+
+.commentBody {
+  flex: 2;
+  margin-left: 0.5em;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  /* align-items: end; */
+}
+.commentHeader {
+  display: flex;
+  font-size: 12px;
+}
+
+.userName {
+  font-weight: bold;
+  color: gray;
+  margin-right: 1em;
+}
+.btn {
+  align-self: end;
+}

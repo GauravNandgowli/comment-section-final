@@ -1,0 +1,6 @@
+.commentView {
+  /* background-color: rgb(30, 255, 0); */
+  width: 44em;
+  display: flex;
+  flex-direction: column;
+}
